@@ -1,20 +1,20 @@
 SpeakerRecognition
 ====================
 
-A speaker recognition library that works both online and offline and supports a number of engines and APIs. 
-
 <div id="badges" align="center">
   <a href="https://pypi.org/user/SriBalaji/">
     <img src="https://img.shields.io/badge/Python-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python Library Badge"/>
   </a>
-  <a href="https://www.linkedin.com/in/sri-balaji-7b51b7228/">
-    <img src="https://img.shields.io/badge/LinkedIn-red?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  <a href="https://www.tensorflow.org">
+    <img src="https://img.shields.io/badge/Tensorflow-red?style=for-the-badge&logo=Tensorflow&logoColor=white" alt="TensorFlow Badge"/>
   </a>
-  <a href="https://twitter.com/Balaji92223427">
-    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
+  <a href="https://keras.io/">
+    <img src="https://img.shields.io/badge/Keras-blue?style=for-the-badge&logo=keras&logoColor=white" alt="Keras Badge"/>
   </a>
 </div>
 
+<br>
+A speaker recognition library that works both online and offline and supports a number of engines and APIs. 
 
 **UPDATE 02-04-2023**: Hello, everybody!
 Originally intended as a tech demo, this project now requires more time than I have available to keep up with all the PRs and bugs.
@@ -148,5 +148,30 @@ To install/reinstall the library locally, run ``python setup.py install`` in the
 Before a release, the version number is bumped in ``README.rst`` and ``speaker_recognition/__init__.py``. Version tags are then created using ``git config gpg.program gpg2 && git config user.signingkey DB45F6C431DE7C2DCD99FF7904882258A4063489 && git tag -s VERSION_GOES_HERE -m "Version VERSION_GOES_HERE"``.
 
 Releases are done by running ``make-release.sh VERSION_GOES_HERE`` to build the Python source packages, sign them, and upload them to PyPI.
+
+
+Authors
+-------
+::
+
+    SriBalaji2112 <sribalaji2112@gmail.com> <sribalaji.rf.gd> (Balaji Santhanam)
+    
+Please report bugs and suggestions at the `issue tracker <https://github.com/SriBalaji2112/speaker_recognition/issues>`__!
+
+
+License
+-------
+
+Copyright 2014-2017 `Balaji Santhanam (SriBalaji2112) <http://sribalaji.rf.gd/>`__. The source code for this library is available online at `GitHub <https://github.com/SriBalaji2112/speaker_recognition>`__.
+
+SpeakerRecognition is made available under the 3-clause BSD license. See ``LICENSE.txt`` in the project's `root directory <https://github.com/SriBalaji2112/speaker_recognition>`__ for more information.
+
+For convenience, all the official distributions of SpeakerRecognition already include a copy of the necessary copyright notices and licenses. In your project, you can simply **say that licensing information for SpeakerRecognition can be found within the SpeakerRecognition README, and make sure SpeakerRecognition is visible to users if they wish to see it**.
+
+SpeakerRecognition distributes source code, binaries, and language files from `CMU Sphinx <http://cmusphinx.sourceforge.net/>`__. These files are BSD-licensed and redistributable as long as copyright notices are correctly retained. See ``speaker_recognition/pocketsphinx-data/*/LICENSE*.txt`` and ``third-party/LICENSE-Sphinx.txt`` for license details for individual parts.
+
+SpeakerRecognition distributes source code and binaries from `PyAudio <http://people.csail.mit.edu/hubert/pyaudio/>`__. These files are MIT-licensed and redistributable as long as copyright notices are correctly retained. See ``third-party/LICENSE-PyAudio.txt`` for license details.
+
+SpeakerRecognition distributes binaries from `FLAC <https://xiph.org/flac/>`__ - ``speaker_recognition/flac-win32.exe``, ``speaker_recognition/flac-linux-x86``, and ``speaker_recognition/flac-mac``. These files are GPLv2-licensed and redistributable, as long as the terms of the GPL are satisfied. The FLAC binaries are an `aggregate <https://www.gnu.org/licenses/gpl-faq.html#MereAggregation>`__ of `separate programs <https://www.gnu.org/licenses/gpl-faq.html#NFUseGPLPlugins>`__, so these GPL restrictions do not apply to the library or your programs that use the library, only to FLAC itself. See ``LICENSE-FLAC.txt`` for license details.
 
 
