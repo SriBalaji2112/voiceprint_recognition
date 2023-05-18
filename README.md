@@ -36,7 +36,7 @@ To quickly try it out, run ``python -m voiceprint_recognition`` after installing
 
 Project links:
 
--  `PyPI <https://pypi.python.org/pypi/VoiceprintRecognition/>`__
+-  `PyPI <https://pypi.org/project/VoiceIdentification/>`__
 -  `Source code <https://github.com/SriBalaji2112/voiceprint_recognition>`__
 -  `Issue tracker <https://github.com/SriBalaji2112/voiceprint_recognition/issues>`__
 
@@ -55,9 +55,9 @@ Installing
 
 First, confirm that you have complied with all the conditions outlined in the `Requirements` section. 
 
-Using the command `pip install VoiceprintRecognition` is the simplest way to install this. 
+Using the command `pip install VoiceIdentification` is the simplest way to install this. 
 
-If not, extract the ZIP after downloading the source distribution from PyPI `https://pypi.python.org/pypi/VoiceprintRecognition`. 
+If not, extract the ZIP after downloading the source distribution from PyPI `https://pypi.org/project/VoiceIdentification/`. 
 
 In the folder, run ``python setup.py install``.
 
